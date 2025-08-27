@@ -2,10 +2,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/jeongyik/monsoon-indices)](https://github.com/jeongyik/monsoon-indices/issues)
-[![GitHub stars](https://img.shields.io/github/stars/jeongyik/monsoon-indices)](https://github.com/jeongyik/monsoon-indices/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/jeongyik/monsoon-indices)](https://github.com/jeongyik/monsoon-indices/network/members)
-[![Last Commit](https://img.shields.io/github/last-commit/jeongyik/monsoon-indices)](https://github.com/jeongyik/monsoon-indices/commits/main)
+[![GitHub stars](https://img.shields.io/github/stars/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/network/members)
+[![Last Commit](https://img.shields.io/github/last-commit/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/commits/main)
 
 
 This project provides a modular Python script to calculate and plot monsoon indices (SWMI1, SWMI2, NEMI, NEMO, MESI) from any NetCDF dataset or GFS 0.25° data.
@@ -66,6 +65,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
