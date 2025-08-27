@@ -1,3 +1,4 @@
+# 🌏 Monsoon Indices 
 **Generalized Monsoon Indices Plotting**
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
@@ -8,7 +9,6 @@
 [![Last Commit](https://img.shields.io/github/last-commit/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/commits/main)
 
 
-This project provides a modular Python script to calculate and plot monsoon indices (SWMI1, SWMI2, NEMI, NEMO, MESI) from any NetCDF dataset or GFS 0.25° data.
 
 ### 📖 Overview
 This repository provides a **generalized Python framework** for:  
@@ -17,8 +17,7 @@ This repository provides a **generalized Python framework** for:
 - Computing multiple climate indices  
 - Interactive plotting functions (via `mia.py`)  
 
-
-monsoon\_indices/
+## 📂 Repository Structure 
 
 │
 
@@ -91,6 +90,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
