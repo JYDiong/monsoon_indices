@@ -29,29 +29,45 @@ monsoon\_indices/
 **Requirements**
 
 Python >= 3.9 with the following packages:
+
 xarray
+
 pandas
+
 matplotlib
+
 seaborn
+
 netCDF4
+
 argparse (standard library)
 
 You can install the dependencies using:
+
 pip install xarray pandas matplotlib seaborn netCDF4
 
 **Features**
 
 Modular plotting functions in mia.py
+
 Automatic detection of u/v wind variable names in NetCDF files
+
 Daily averaging of wind data
+
 Flexible region selection
+
 User can choose which indices to plot
+
 Input either a local/remote NetCDF file or fetch GFS 0.25° data by date and cycle
+
 Automatic creation of output directories
+
 CSV export for all indices
+
 User-friendly CLI with --help
 
 **Usage**
+
 ***Show help***
 
 python monsoon\_indices.py --help
@@ -69,6 +85,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
