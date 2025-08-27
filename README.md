@@ -50,18 +50,26 @@ pip install xarray pandas matplotlib seaborn netCDF4
 ## ✨ Features
 
 ✅ Modular plotting functions in mia.py
+
 ✅ Automatic detection of u/v wind variable names in NetCDF files
+
 ✅ Daily averaging of wind data
+
 ✅ Flexible region selection
+
 ✅ User can choose which indices to plot
+
 ✅ Input either a local/remote NetCDF file or fetch GFS 0.25° data by date and cycle
+
 ✅ Automatic creation of output directories
+
 ✅ CSV export for all indices
+
 ✅ User-friendly CLI with --help
 
 -------
 
-🚀 Usage
+## 🚀 Usage
 📖 Show help
 
 ```bash
@@ -69,11 +77,11 @@ python monsoon_indices.py --help
 
 
 Output:
-'''less
 usage: monsoon_indices.py [-h] [--file FILE] [--date DATE] [--cycle {00z,06z,12z,18z}]
                           [--outdir OUTDIR] [--indices INDICES]
+```
 -----
-📊 Plot indices from a NetCDF file
+## 📊 Plot indices from a NetCDF file
 
 
 python monsoon\_indices.py --file /path/to/data.nc --indices SWMI1,NEMI
@@ -82,6 +90,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
