@@ -2,6 +2,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1234567.svg)](https://doi.org/10.5281/zenodo.1234567)
 [![GitHub stars](https://img.shields.io/github/stars/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/network/members)
 [![Last Commit](https://img.shields.io/github/last-commit/jeongyik/monsoon_indices)](https://github.com/jeongyik/monsoon_indices/commits/main)
@@ -65,6 +66,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
