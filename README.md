@@ -40,6 +40,7 @@ You can install the dependencies using:
 pip install xarray pandas matplotlib seaborn netCDF4
 
 **Features**
+
 Modular plotting functions in mia.py
 Automatic detection of u/v wind variable names in NetCDF files
 Daily averaging of wind data
@@ -52,6 +53,7 @@ User-friendly CLI with --help
 
 **Usage**
 ***Show help***
+
 python monsoon\_indices.py --help
 Output:
 
@@ -60,12 +62,14 @@ usage: monsoon\_indices.py \[-h] \[--file FILE] \[--date DATE] \[--cycle {00z,06
 &nbsp;                          \[--outdir OUTDIR] \[--indices INDICES]
 
 ***Plot indices from a NetCDF file***
+
 python monsoon\_indices.py --file /path/to/data.nc --indices SWMI1,NEMI
 
 This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
