@@ -7,6 +7,6 @@ authors:
     given-names: "Jeong Yik"
     orcid: "https://orcid.org/0000-0003-1128-7425"   # replace with your ORCID if you have one
 date-released: 2025-08-27
-doi: "10.5281/zenodo.XXXXXXX"   # optional, if you archive with Zenodo
+doi: "10.5281/zenodo.16965193"   # optional, if you archive with Zenodo
 url: "https://github.com/jeongyik/monsoon_indices"
 license: "MIT"
