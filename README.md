@@ -10,6 +10,12 @@
 
 This project provides a modular Python script to calculate and plot monsoon indices (SWMI1, SWMI2, NEMI, NEMO, MESI) from any NetCDF dataset or GFS 0.25° data.
 
+### 📖 Overview
+This repository provides a **generalized Python framework** for:  
+- Loading any NetCDF dataset  
+- Automatically detecting `u`/`v` wind components  
+- Computing multiple climate indices  
+- Interactive plotting functions (via `mia.py`)  
 
 
 monsoon\_indices/
@@ -85,6 +91,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
