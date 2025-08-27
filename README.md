@@ -47,7 +47,7 @@ You can install the dependencies using:
 pip install xarray pandas matplotlib seaborn netCDF4
 
 -----
-✨ Features
+## ✨ Features
 
 ✅ Modular plotting functions in mia.py
 ✅ Automatic detection of u/v wind variable names in NetCDF files
@@ -82,6 +82,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
