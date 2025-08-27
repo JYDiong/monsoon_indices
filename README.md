@@ -29,26 +29,21 @@ This repository provides a **generalized Python framework** for:
 
 └── requirements.txt       # Required Python packages
 
+-------
+## 📦 Requirements 
 
+- Python >= 3.9  
+- Packages:  
+  - `xarray`  
+  - `pandas`  
+  - `matplotlib`  
+  - `seaborn`  
+  - `netCDF4`  
+  - `argparse` (standard library)  
 
-**Requirements**
+You can install the dependencies using:  
 
-Python >= 3.9 with the following packages:
-
-xarray
-
-pandas
-
-matplotlib
-
-seaborn
-
-netCDF4
-
-argparse (standard library)
-
-You can install the dependencies using:
-
+```bash
 pip install xarray pandas matplotlib seaborn netCDF4
 
 **Features**
@@ -90,6 +85,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
