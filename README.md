@@ -74,22 +74,27 @@ pip install xarray pandas matplotlib seaborn netCDF4
 
 ```bash
 python monsoon_indices.py --help
+```
 
-
-Output:
+### Output:
+``` bash
 usage: monsoon_indices.py [-h] [--file FILE] [--date DATE] [--cycle {00z,06z,12z,18z}]
                           [--outdir OUTDIR] [--indices INDICES]
 ```
 -----
 ## 📊 Plot indices from a NetCDF file
 
-
+```bash
 python monsoon\_indices.py --file /path/to/data.nc --indices SWMI1,NEMI
+```
+### This will:
 
-This will:
 Read /path/to/data.nc
+
 Compute and plot SWMI1 and NEMI
+
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
