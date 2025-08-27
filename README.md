@@ -45,7 +45,7 @@ You can install the dependencies using:
 
 ```bash
 pip install xarray pandas matplotlib seaborn netCDF4
-
+```bash
 -----
 ## ✨ Features
 
@@ -82,6 +82,7 @@ This will:
 Read /path/to/data.nc
 Compute and plot SWMI1 and NEMI
 Save CSV and PNG files to the default output directory /home/index/GFS (can be changed with --outdir)
+
 
 
 
